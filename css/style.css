@@ -11,11 +11,12 @@ body{
     background-color: #27282c;
 }
 .nav-box {
+    -webkit-backdrop-filter: blur(11px);
+    backdrop-filter: blur(11px);
     font-family: 'JetBrains Mono', monospace;
-    background-color: #141415;
+    background: #00000048;
     font-size: 20px;
     width: 100%;
-    background: #121213;
     height: 80px;
     top: 0px;
     position: fixed;
@@ -51,6 +52,7 @@ a {
     position: relative;
     text-decoration: none;
     font-weight: 400;
+    color: rgba(60, 255, 135, 0.4)
 }
 #menu>li>a:hover {
     color: #ffffff;
@@ -80,9 +82,6 @@ p{
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
     transition: color 0.6s linear;
-}
-p:hover{
-    color: #ffc32a;
 }
 h1{
     display: flex;
@@ -223,16 +222,13 @@ h1{
     padding: 4px;
     width: 620px;
     height: 334px;
-    background-color: #0e0e0e;
+    background: linear-gradient(149deg, rgb(37, 37, 37) 0%, rgb(30, 30, 30) 42%, rgb(20, 20, 20) 72%, rgb(9, 9, 9) 100%);
     box-shadow: 20px 34px 64px rgba(0,0,0,.302);
     margin-right: auto;
     margin-left: auto; 
-    animation: showing 2s;
-    transition: background-color 0.6s linear;
+    animation: tide 10s infinite linear;
+    background-size: 400%;
 }
-.pew-content:hover {
-    background-color: #1e295d;
-  }
 
 
 
@@ -250,8 +246,7 @@ p2{
 
 .project_content{
     margin-top: 20px;
-    height: 764px;
-    border-bottom: solid 1px #ffffff;
+    height: 1455px;
     border-top: solid 1px #ffffff ;
 }
 .imgAlphamap{
@@ -334,8 +329,91 @@ p2{
     margin-top: 32px;
 }
 
+.about_project_text{
+    width: 562px;
+    display: block;
+    color: #fff;
+    font-size: 19px;
+    line-height: 1.4;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 200;
+    opacity: .9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+.about_project_text2{
+    width: 562px;
+    display: block;
+    color: #fff;
+    font-size: 19px;
+    line-height: 1.4;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 200;
+    opacity: .9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+.njgbt860geui68x0{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: 1px;
+    background: #ffffff;
+    margin-top: 32px;
+}
+
+
+.ru_flag{
+    display: block;
+    position: relative;
+    width: 52px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    right: 180px;
+    top: 25px;
+}
+.ua_flag{
+    display: block;
+    position: relative;
+    width: 52px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    right: 180px;
+    top: 38px;
+}
+.en_flag{
+    display: block;
+    position: relative;
+    width: 52px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    right: 180px;
+    top: 52px;
+}
+
 
 @keyframes showing{
     0%{opacity: 0;}
     100%{opacity: 1;}
+}
+@keyframes tide {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
 }
