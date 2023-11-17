@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600&family=Poppins:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap');
 
+/* body */
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +11,12 @@
 body{
     background-color: #27282c;
 }
+
+/* header */
+ul li {
+    list-style: none
+}
+
 .nav-box {
     -webkit-backdrop-filter: blur(11px);
     backdrop-filter: blur(11px);
@@ -23,25 +30,27 @@ body{
     z-index: 999;
     border-bottom: solid 2px #6b57ff;
 }
-.nav-box img{
+.logo{
     position: fixed;
     width: 45px;
     left: 35px;
     top: 17px;
     filter: invert(1);
 }
+
 #menu {
     float: left;
     position: fixed;
     left: 100px;
 }
 li {
-    padding-left: 20px;
+    padding-left: 10px;
     display: inline-block;
     font-weight: 300;
     line-height: 20px;
     position: relative;
 }
+
 #menu>li>a {
     padding: 30px 0px 30px 0px;
     color: #aaa;
@@ -73,9 +82,23 @@ li>a:hover:before {
     left: 0;
 }
 
+.menu_button_content,
+    input[type="checkbox"] {
+        display: none;
+}
+.button{
+    cursor: pointer;
+}
+.button img{
+    position: fixed;
+    width: 45px;
+    left: 35px;
+    top: 17px;
+    filter: invert(1);
+}
 
 
-
+/* links box #home */
 .main_text{
     text-align: center;
     font-size: 51px;
@@ -207,6 +230,7 @@ li>a:hover:before {
 }
 
 
+/* info text #home */
 .about_me{
     margin-top: 27%;
     height: 400px;
@@ -227,8 +251,6 @@ li>a:hover:before {
     margin-right: auto;
     margin-top: 35px;
 }
-
-
 p2{
     display: flex;
     justify-content: center;
@@ -240,6 +262,8 @@ p2{
     overflow: hidden;
 }
 
+
+/* Project section #project */
 .project_content{
     margin-top: 20px;
     height: 1200px;
@@ -292,7 +316,6 @@ p2{
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.232);
 
 }
-
 .project_button{
     display: block;
     margin-left: auto;
@@ -314,7 +337,6 @@ p2{
     background: #fff;
     color: #000;
 }
-
 .in865rhfutybera4{
     display: block;
     margin-right: auto;
@@ -325,6 +347,7 @@ p2{
     margin-top: 32px;
 }
 
+/* Project section text #project */
 .about_project_text{
     width: 562px;
     display: block;
@@ -351,7 +374,6 @@ p2{
     margin-right: auto;
     margin-top: 35px;
 }
-
 .njgbt860geui68x0{
     display: block;
     margin-right: auto;
@@ -363,6 +385,7 @@ p2{
 }
 
 
+/* Animations */ 
 @keyframes showing{
     0%{opacity: 0;}
     100%{opacity: 1;}
@@ -378,6 +401,20 @@ p2{
         background-position: 80% 0%;
     }
 }
+
+@media screen and (min-width: 760px) {
+    .button{
+        display: none;
+    }
+    .nav-box ul li {
+        padding-left: 20px;
+    }
+    li {
+        transition: all 0s;
+    }
+}
+
+
 
 @media screen and (max-width: 1350px) {
     .about_me{
@@ -427,6 +464,15 @@ p2{
     }
 }
 @media screen and (max-width: 760px) {
+    li {
+        display: block;
+    }
+    #menu{
+        display: none;
+    }
+    .logo{
+        left: 660px;
+    }
     .about_me{
         margin-top: 51%;
     }
@@ -434,9 +480,13 @@ p2{
         font-size: 15px;
     }
 }
+
 @media screen and (max-width: 710px) {
     .about_me{
         margin-top: 54%;
+    }
+    .logo{
+        left: 620px;
     }
 }
 @media screen and (max-width: 680px) {
@@ -447,6 +497,9 @@ p2{
         font-size: 15px;
         width: 360px;
     }
+    .logo{
+        left: 600px;
+    }
 }
 @media screen and (max-width: 640px) {
     .about_me{
@@ -456,10 +509,16 @@ p2{
         font-size: 15px;
         width: 360px;
     }
+    .logo{
+        left: 570px;
+    }
 }
 @media screen and (max-width: 590px) {
     .about_me{
         margin-top: 64%;
+    }
+    .logo{
+        left: 500px;
     }
 }
 @media screen and (max-width: 560px) {
@@ -470,6 +529,9 @@ p2{
         font-size: 13px;
         width: 340px;
     }
+    .logo{
+        left: 470px;
+    }
 }
 @media screen and (max-width: 540px) {
     .about_me{
@@ -479,29 +541,47 @@ p2{
         font-size: 13px;
         width: 340px;
     }
+    .logo{
+        left: 440px;
+    }
 }
 @media screen and (max-width: 500px) {
     .about_me{
         margin-top: 78%;
+    }
+    .logo{
+        left: 410px;
     }
 }
 @media screen and (max-width: 470px) {
     .about_me{
         margin-top: 82%;
     }
+    .logo{
+        left: 375px;
+    }
 }
 @media screen and (max-width: 445px) {
     .about_me{
         margin-top: 85%;
+    }
+    .logo{
+        left: 360px;
     }
 }
 @media screen and (max-width: 430px) {
     .about_me{
         margin-top: 89%;
     }
+    .logo{
+        left: 345px;
+    }
 }
 @media screen and (max-width: 410px) {
     .about_me{
         margin-top: 94%;
+    }
+    .logo{
+        left: 325px;
     }
 }
