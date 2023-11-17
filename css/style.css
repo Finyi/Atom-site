@@ -17,7 +17,7 @@ ul li {
     list-style: none
 }
 
-.nav-box {
+nav {
     -webkit-backdrop-filter: blur(11px);
     backdrop-filter: blur(11px);
     font-family: 'JetBrains Mono', monospace;
@@ -44,7 +44,7 @@ ul li {
     left: 100px;
 }
 li {
-    padding-left: 10px;
+    padding-left: 34px;
     display: inline-block;
     font-weight: 300;
     line-height: 20px;
@@ -82,20 +82,57 @@ li>a:hover:before {
     left: 0;
 }
 
-.menu_button_content,
-    input[type="checkbox"] {
+.button_content,
+	input[type="checkbox"] {
+	  display: none;
+	}
+	input[type="checkbox"]:checked ~ .button_content {
+      -webkit-backdrop-filter: blur(12px);
+      backdrop-filter: blur(12px);
+      font-family: 'JetBrains Mono', monospace;
+      background: #0000005a;
+      border-radius: 0px 0px 15px 0px;
+      background-blend-mode: overlay,normal;
+	  display: block;
+      font-size: 18px;
+	  position: absolute;
+	  width: 164px;
+	  height: 279px;
+	  margin-top: 54px;
+      animation: showing 0.7s;
+      z-index: 400;
+	}
+	.btn {
+        border-radius: 6px;
+        width: 45px;
+        display: inline-block;
+        position: relative;
+        padding: 0px 0px;
+        cursor: pointer;
+        z-index: 800;
+        right: -10px;
+      }
+    .btn img{
+        position: fixed;
+        width: 45px;
+        left: 35px;
+        top: 17px;
+        filter: invert(1);
+    }
+    #menu2>li>a {
+        padding: 15px 0px 30px 0px;
+        color: #aaa;
+        transition: 0.4s color;
+        text-decoration: none;
+    }
+    #menu2>li>a:hover {
+        color: #ffffff;
+        transition: 0.3s all;
+    }
+    #menu2>li>a:before {
         display: none;
-}
-.button{
-    cursor: pointer;
-}
-.button img{
-    position: fixed;
-    width: 45px;
-    left: 35px;
-    top: 17px;
-    filter: invert(1);
-}
+    }
+
 
 
 /* links box #home */
@@ -385,6 +422,9 @@ p2{
 }
 
 
+
+
+
 /* Animations */ 
 @keyframes showing{
     0%{opacity: 0;}
@@ -403,14 +443,17 @@ p2{
 }
 
 @media screen and (min-width: 760px) {
-    .button{
+    .btn{
         display: none;
     }
-    .nav-box ul li {
-        padding-left: 20px;
+    .button_content{
+        display: none;
     }
     li {
         transition: all 0s;
+    }
+    #menu2{
+        display: none;
     }
 }
 
