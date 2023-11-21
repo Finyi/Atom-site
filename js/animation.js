@@ -11,12 +11,10 @@ function onEntry(entry) {
   for (let elm of mapmobile) {
     observer.observe(elm);
   }
-
   let mapdesktop = document.querySelectorAll('.img__alphamapdesktop');
   for (let elm of mapdesktop) {
     observer.observe(elm)
   }
-
   let blueflag = document.querySelectorAll('.content__blueflag');
   for (let elm of blueflag) {
     observer.observe(elm)
@@ -24,4 +22,12 @@ function onEntry(entry) {
   let yellowflag = document.querySelectorAll('.content__yellowflag');
   for (let elm of yellowflag) {
     observer.observe(elm)
+  }
+  let ukrainetext = document.querySelectorAll('.ukraine__text');
+  for (let elm of ukrainetext) {
+    observer.observe(elm);
+  }
+  let ukrainewartext = document.querySelectorAll('.ukrainewar__text');
+  for (let elm of ukrainewartext) {
+    observer.observe(elm);
   }
