@@ -5,4 +5,8 @@
 
 
 
-# Developing 🛠 [ENG]
+# Personal site 🔅 [ENG]
+Athom Site - my simple personal website with information about me and my released/future projects on GitHub (without water 😅).
+
+# Персональний сайт 🔅 [UA]
+Athom Site — мій простий особистий сайт з інформацією про мене та мої випущені/майбутні проекти на GitHub (без води 😅).
