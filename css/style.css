@@ -10,8 +10,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+html,body{
     background-color: #27282c;
+    overflow-x: hidden;
 }
 a {
     display: inline-block;
@@ -109,7 +110,7 @@ li>a:hover:before {
       text-align: center;
 	  width: 100%;
 	  height: 279px;
-	  margin-top: 54px;
+	  margin-top: 15px;
       z-index: 400;
       animation: showing 0.6s;
       transition: 0.3s all ease-in-out;
@@ -124,12 +125,9 @@ li>a:hover:before {
         z-index: 800;
         right: -10px;
       }
-    .btn img{
-        position: fixed;
-        width: 45px;
-        left: 35px;
-        top: 17px;
-        filter: invert(1);
+    .menu__button{
+        display: block;
+        margin-top: 15px;
     }
     #menu2>li>a {
         padding: 40px 0px 30px 0px;
@@ -148,21 +146,26 @@ li>a:hover:before {
 
 /* home */ 
 /* main text */
-.main_text{
+#main_text{
     text-align: center;
     font-size: 51px;
     font-weight: 500;
     color: #fff;
     margin-left: auto;
     margin-right: auto;
-    width: 6em;
+    width: 4ch;
     margin-top: 120px;
     border-bottom: 1px solid #ffffff73;
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
-    animation: showing 2s
+    transition: color 0.2s;
 }
-.subtitle_text{
+#main_text:hover{
+    filter: drop-shadow(0px 0px 5px rgba(85, 255, 0, 0.21));
+    color: #9dd011;
+    transition: color 0.5s;
+} 
+#subtitle_text{
     text-align: center;
     font-size: 14px;
     font-weight: 600;
@@ -315,7 +318,7 @@ li>a:hover:before {
     left: 0;
     right: 0;
     margin: auto;
-    width: 720px;
+    width: 700px;
     color: #fff;
     font-size: 19px;
     line-height: 1.4;
@@ -326,17 +329,20 @@ li>a:hover:before {
     margin-right: auto;
     margin-top: 35px;
 }
+.about_me:hover{
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.21));
+}
 
 /* #project */
 /* main text */
-.main_project_text{
+#main_project_text{
     text-align: center;
-    font-size: 51px;
+    font-size: 50px;
     font-weight: 500;
     color: #fff;
     margin-left: auto;
     margin-right: auto;
-    width: 12em;
+    width: 10em;
     background: #001203;
     margin-top: 120px;
     border-bottom: 1px solid #00ff4873;
@@ -346,6 +352,8 @@ li>a:hover:before {
 
 /* project alphamap section */
 .project_content{
+    display: block;
+    justify-content: center;
     margin-top: 20px;
     height: 2543px;
     border-top: solid 1px #fff;
@@ -361,7 +369,7 @@ li>a:hover:before {
     animation: showing 4s;
     filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.1));
 }
-.alphamap__text{
+#alphamap__text{
     text-align: center;
     font-size: 44px;
     font-weight: 500;
