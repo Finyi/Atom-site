@@ -829,11 +829,11 @@ li>a:hover:before {
         width: 180px;
         top: 565px;
     }
-    .main_project_text{
+    #main_project_text{
         width: 8em;
         font-size: 44px;
     }
-    .alphamap__text{
+    #alphamap__text{
         font-size: 33px;
         margin-top: 10px;
     }
@@ -985,7 +985,7 @@ li>a:hover:before {
     .footer>a{
         left: 312px;
     }
-    .alphamap__text{
+    #alphamap__text{
         font-size: 31px;
         margin-top: 10px;
     }
@@ -1263,7 +1263,7 @@ li>a:hover:before {
     .logo{
         left: 360px;
     }
-    .main_project_text{
+    #main_project_text{
         width: 7em;
         font-size: 38px;
     }
@@ -1339,7 +1339,7 @@ li>a:hover:before {
     .logo{
         left: 325px;
     }
-    .main_project_text{
+    #main_project_text{
         width: 7em;
         font-size: 38px;
     }
