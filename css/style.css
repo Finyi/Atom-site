@@ -177,6 +177,13 @@ li>a:hover:before {
     overflow: hidden;
 }
 
+.main{
+    display: block;
+    justify-content: center;
+    height: 500px;
+    margin-top: 50px;
+}
+
 /* links block */
 .container__links{
     position: absolute;
@@ -192,7 +199,7 @@ li>a:hover:before {
     box-shadow: 0px 0px 18px rgba(0,0,0,.302);
     animation: showing 0.3s ease-in-out;
     transition: all 0.2s;
-    top: 37%;
+    margin-top: 10px;
 }
 .container__links:hover{
     transition: all 0.2s;
@@ -253,7 +260,7 @@ li>a:hover:before {
     box-shadow: 0px 0px 18px rgba(0,0,0,.302);
     animation: showing 0.3s ease-in-out;
     transition: all 0.2s;
-    margin-top: 440px;
+    margin-top: 344px;
 }
 .container__donate__button{
     display: block;
@@ -283,35 +290,9 @@ li>a:hover:before {
     padding-top: 10px;
 }
 
-/* skill block */
-.container__skills{
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 33%;
-    min-width: 360px;
-    max-width: 360px;
-    height: 62px;
-    margin: auto;
-    background: #1a191e;
-    border-radius: 4px;
-    box-shadow: 0px 0px 18px rgba(0,0,0,.302);
-    animation: showing 0.3s ease-in-out;
-    transition: all 0.2s;
-    margin-top: 510px;
-}
-.container__skills img{
-    width: 76px;
-    margin-top: 14px;
-    margin-left: 11px;
-    float: left;
-    filter: invert(0);
-    transition: 0.1s all ease-in-out;
-}
-
 /* about me block */
 .about_me{
-    margin-top: 42%;
+    margin-top: 2%;
     height: 400px;
 }
 .about_me_main_text{
@@ -524,10 +505,9 @@ li>a:hover:before {
     color: #000;
 }
 .in865rhfutybera4{
-    display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 47%;
     height: 1px;
     background: #ffffff;
     margin-top: 46px;
@@ -559,7 +539,6 @@ li>a:hover:before {
     margin-top: 35px;
 }
 .njgbt860geui68x0{
-    display: block;
     margin-right: auto;
     margin-left: auto;
     width: 50%;
@@ -648,9 +627,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 1570px) {
-    .about_me{
-        margin-top: 42%;
-    }
     .footer>a{
         left: 749px;
     }
@@ -682,9 +658,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 1350px) {
-    .about_me{
-        margin-top: 49%;
-    }
     .footer>a{
         left: 617px;
     }
@@ -707,9 +680,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 1280px) {
-    .about_me{
-        margin-top: 55%;
-    }
     .footer>a{
         left: 585px;
     }
@@ -741,9 +711,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 1140px) {
-    .about_me{
-        margin-top: 59%;
-    }
     .footer>a{
         left: 525px;
     }
@@ -779,9 +746,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 1080px) {
-    .about_me{
-        margin-top: 61%;
-    }
     .about_me_main_text{
         font-size: 18px;
     }
@@ -793,17 +757,11 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 1040px) {
-    .about_me{
-        margin-top: 61%;
-    }
     .footer>a{
         left: 462px;
     }
 }
 @media screen and (max-width: 1000px) {
-    .about_me{
-        margin-top: 67%;
-    }
     .footer>a{
         left: 431px;
     }
@@ -854,9 +812,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 880px) {
-    .about_me{
-        margin-top: 74%;
-    }
     .about_me_main_text{
         font-size: 15px;
         width: 520px;
@@ -910,9 +865,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 825px) {
-    .about_me{
-        margin-top: 79%;
-    }
     .footer>a{
         left: 354px;
     }
@@ -926,9 +878,6 @@ li>a:hover:before {
     }
     .logo{
         left: 660px;
-    }
-    .about_me{
-        margin-top: 84%;
     }
     .about_me_main_text{
         font-size: 15px;
@@ -974,9 +923,6 @@ li>a:hover:before {
 }
 
 @media screen and (max-width: 710px) {
-    .about_me{
-        margin-top: 91%;
-    }
     .logo{
         left: 620px;
     }
@@ -1025,9 +971,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 680px) {
-    .about_me{
-        margin-top: 95%;
-    }
     .about_me_main_text{
         font-size: 15px;
         width: 360px;
@@ -1053,9 +996,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 640px) {
-    .about_me{
-        margin-top: 102%;
-    }
     .about_me_main_text{
         font-size: 15px;
         width: 360px;
@@ -1106,9 +1046,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 590px) {
-    .about_me{
-        margin-top: 109%;
-    }
     .logo{
         left: 500px;
     }
@@ -1125,9 +1062,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 560px) {
-    .about_me{
-        margin-top: 114%;
-    }
     .about_me_main_text{
         font-size: 13px;
         width: 340px;
@@ -1179,9 +1113,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 540px) {
-    .about_me{
-        margin-top: 121%;
-    }
     .about_me_main_text{
         font-size: 13px;
         width: 340px;
@@ -1233,9 +1164,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 500px) {
-    .about_me{
-        margin-top: 129%;
-    }
     .logo{
         left: 410px;
     }
@@ -1244,9 +1172,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 470px) {
-    .about_me{
-        margin-top: 144%;
-    }
     .logo{
         left: 375px;
     }
@@ -1255,9 +1180,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 445px) {
-    .about_me{
-        margin-top: 151%;
-    }
     .logo{
         left: 360px;
     }
@@ -1308,9 +1230,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 430px) {
-    .about_me{
-        margin-top: 162%;
-    }
     .logo{
         left: 345px;
     }
@@ -1323,17 +1242,11 @@ li>a:hover:before {
     .footer>a{
         left: 161px;
     }
-    .about_me{
-        margin-top: 120%;
-    }
     .logo{
         left: 325px;
     }
 }
 @media screen and (max-width: 410px) {
-    .about_me{
-        margin-top: 162%;
-    }
     .logo{
         left: 325px;
     }
