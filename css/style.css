@@ -926,6 +926,12 @@ li>a:hover:before {
     .about_me_main_text{
         font-size: 15px;
     }
+    .lang__en{
+        margin-right: 15px;
+    }
+    .lang__ua{
+        margin-right: 135px;
+    }
     .footer>a{
         left: 331px;
     }
