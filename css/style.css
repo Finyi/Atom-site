@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Silkscreen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600&family=Poppins:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
@@ -39,7 +39,7 @@ a {
 nav {
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
     background: #10101048;
     font-size: 20px;
     width: 100%;
@@ -144,8 +144,7 @@ li>a:hover:before {
 	input[type="checkbox"]:checked ~ .button_content {
       -webkit-backdrop-filter: blur(12px);
       backdrop-filter: blur(12px);
-      font-family: 'JetBrains Mono', monospace;
-      background: rgba(0, 0, 0, 0.88);
+      background: rgba(8, 8, 8, 0.934);
       background-blend-mode: overlay,normal;
 	  display: block;
       font-size: 18px;
@@ -156,7 +155,7 @@ li>a:hover:before {
 	  margin-top: 15px;
       z-index: 400;
       animation: showing 0.6s;
-      transition: 0.3s all ease-in-out;
+      transition: 0.3s all;
 	}
 	.btn {
         border-radius: 6px;
@@ -173,7 +172,7 @@ li>a:hover:before {
         margin-top: 15px;
     }
     #menu2>li>a {
-        padding: 40px 0px 30px 0px;
+        padding: 40px 30px 25px 0px;
         color: #aaa;
         transition: 0.4s color;
         text-decoration: none;
@@ -186,7 +185,6 @@ li>a:hover:before {
     #menu2>li>a:before {
         display: none;
     }
-
     #news{
         cursor: not-allowed;
     }
@@ -920,7 +918,7 @@ li>a:hover:before {
         display: none;
     }
     .logo{
-        left: 660px;
+        display: none;
     }
     .about_me_main_text{
         font-size: 15px;
@@ -929,7 +927,7 @@ li>a:hover:before {
         margin-right: 15px;
     }
     .lang__ua{
-        margin-right: 135px;
+        margin-right: 45px;
     }
     .footer>a{
         left: 331px;
@@ -972,9 +970,6 @@ li>a:hover:before {
 }
 
 @media screen and (max-width: 710px) {
-    .logo{
-        left: 620px;
-    }
     .footer>a{
         left: 312px;
     }
@@ -1024,9 +1019,6 @@ li>a:hover:before {
         font-size: 15px;
         width: 360px;
     }
-    .logo{
-        left: 600px;
-    }
     .about_project_text{
         font-size: 14px;
         width: 65%;
@@ -1048,9 +1040,6 @@ li>a:hover:before {
     .about_me_main_text{
         font-size: 15px;
         width: 360px;
-    }
-    .logo{
-        left: 570px;
     }
     .footer>a{
         left: 265px;
@@ -1095,9 +1084,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 590px) {
-    .logo{
-        left: 500px;
-    }
     .about_project_text{
         width: 60%;
         font-size: 12px;
@@ -1114,9 +1100,6 @@ li>a:hover:before {
     .about_me_main_text{
         font-size: 13px;
         width: 340px;
-    }
-    .logo{
-        left: 470px;
     }
     .footer>a{
         left: 219px;
@@ -1166,9 +1149,6 @@ li>a:hover:before {
         font-size: 13px;
         width: 340px;
     }
-    .logo{
-        left: 440px;
-    }
     .footer>a{
         left: 211px;
     }
@@ -1213,25 +1193,16 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 500px) {
-    .logo{
-        left: 410px;
-    }
     .footer>a{
         left: 198px;
     }
 }
 @media screen and (max-width: 470px) {
-    .logo{
-        left: 375px;
-    }
     .footer>a{
         left: 186px;
     }
 }
 @media screen and (max-width: 445px) {
-    .logo{
-        left: 360px;
-    }
     #main_project_text{
         width: 7em;
         font-size: 38px;
@@ -1279,9 +1250,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 430px) {
-    .logo{
-        left: 345px;
-    }
     .about_project_text{
         width: 55%;
     }
@@ -1296,9 +1264,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 410px) {
-    .logo{
-        left: 325px;
-    }
     #main_project_text{
         width: 7em;
         font-size: 38px;
