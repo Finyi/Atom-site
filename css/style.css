@@ -37,13 +37,11 @@ a {
 
 /* navigation bar (header) */
 nav {
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);backdrop-filter: blur(12px);
     font-family: 'Montserrat', sans-serif;
     background: #10101048;
     font-size: 20px;
-    width: 100%;
-    height: 80px;
+    width: 100%;height: 80px;
     top: 0px;
     position: fixed;
     z-index: 999;
@@ -51,11 +49,9 @@ nav {
 .logo{
     position: fixed;
     width: 45px;
-    left: 35px;
-    top: 17px;
+    left: 35px;top: 17px;
     filter: invert(1);
 }
-
 #menu {
     float: left;
     position: fixed;
@@ -100,14 +96,11 @@ li>a:hover:before {
 .lang__en{
     float: right;
     display: block;
-    width: 44px;
-    height: 24px;
-    margin-top: 25px;
-    margin-right: 15px;
+    width: 44px;height: 24px;
+    margin-top: 25px;margin-right: 15px;
 }
 .lang__en img{
-    width: 44px;
-    height: 24px;
+    width: 44px;height: 24px;
     cursor: pointer;
     box-shadow: 0px 0px 18px rgba(220, 31, 31, 0.302);
     transition: all 0.8s;
@@ -119,14 +112,11 @@ li>a:hover:before {
 .lang__ua{
     float: right;
     display: block;
-    width: 44px;
-    height: 24px;
-    margin-top: 25px;
-    margin-right: 50px;
+    width: 44px;height: 24px;
+    margin-top: 25px;margin-right: 50px;
 }
 .lang__ua img{
-    width: 44px;
-    height: 24px;
+    width: 44px;height: 24px;
     cursor: pointer;
     box-shadow: 0px 0px 18px rgba(220, 192, 31, 0.302);
     transition: all 0.8s;
@@ -150,9 +140,8 @@ li>a:hover:before {
       font-size: 18px;
 	  position: absolute;
       text-align: center;
-	  width: 100%;
-	  height: 279px;
-	  margin-top: 15px;
+	  width: 100%;height: 279px;
+	  margin-top: 14px;
       z-index: 400;
       animation: showing 0.6s;
       transition: 0.3s all;
@@ -196,8 +185,7 @@ li>a:hover:before {
     font-size: 51px;
     font-weight: 500;
     color: #fff;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto;margin-right: auto;
     width: 4ch;
     margin-top: 120px;
     border-bottom: 1px solid #ffffff73;
@@ -206,17 +194,15 @@ li>a:hover:before {
     transition: color 0.2s;
 }
 #main_text:hover{
-    filter: drop-shadow(0px 0px 5px rgba(85, 255, 0, 0.21));
-    color: #9dd011;
+    filter: drop-shadow(0px 0px 5px rgba(221, 255, 0, 0.21));
+    color: #d0c311;
     transition: color 0.5s;
 } 
 #subtitle_text{
     text-align: center;
     font-size: 14px;
     font-weight: 600;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 10px;margin-left: auto;margin-right: auto;
     width: 12em;
     color: #fff;
     font-family: 'JetBrains Mono', monospace;
@@ -233,16 +219,10 @@ li>a:hover:before {
 /* links block */
 .container__links{
     position: absolute;
-    left: 0;
-    right: 0;
-    width: 50%;
-    min-width: 320px;
-    max-width: 620px;
-    height: 309px;
+    left: 0;right: 0;
+    width: 50%;min-width: 320px;max-width: 620px;height: 309px;
     margin: auto;
-    border: 3px solid #1a191e;
-    border-radius: 9px;
-    box-shadow: 0px 0px 18px rgba(0,0,0,.302);
+    border: 3px solid #1a191e;border-radius: 24px;
     animation: showing 0.3s ease-in-out;
     transition: all 0.2s;
     margin-top: 10px;
@@ -252,21 +232,16 @@ li>a:hover:before {
     background: #1a191e;
 }
 .container__links>div{
-    width: 225px;
-    height: 48px;
-    border: 2px solid rgb(36, 38, 46);
-    border-radius: 8px;
+    width: 225px;height: 48px;
+    border: 2px solid rgb(36, 38, 46);border-radius: 8px;
     display: block;
-    margin-top: 23px;
     left: 8px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 23px;margin-right: auto;margin-left: auto;
     transition: 0.3s all ease-in-out;
 }
 .container__links>div img{
-    width: 30px;
-    margin-top: 6px;
-    margin-left: 10px;
+    width: 38px;
+    margin-top: 3px;margin-left: 5px;
     float: left;
     filter: invert(0);
     transition: 0.1s all ease-in-out;
@@ -283,8 +258,7 @@ li>a:hover:before {
     font-family: 'JetBrains Mono', monospace;
     font-weight: 200;
     font-size: 17px;
-    margin-top: 1px;
-    margin-right: 35px;
+    margin-top: 1px;margin-right: 35px;
     display: flex;
     justify-content: center;
     padding-top: 10px;
@@ -293,31 +267,22 @@ li>a:hover:before {
 /* donate block */
 .container__donate{
     position: absolute;
-    left: 0;
-    right: 0;
-    width: 25%;
-    min-width: 320px;
-    max-width: 620px;
-    height: 44px;
+    left: 0;right: 0;
+    width: 25%;min-width: 320px;max-width: 620px;height: 44px;
     margin: auto;
     background: #1a191e;
-    border-left: 4px solid #ffcd05;
-    border-radius: 4px;
-    box-shadow: 0px 0px 18px rgba(0,0,0,.302);
+    border-left: 4px solid #ffcd05;border-radius: 4px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.302);
     animation: showing 0.3s ease-in-out;
     transition: all 0.2s;
     margin-top: 344px;
 }
 .container__donate__button{
     display: block;
-    width: 150px;
-    height: 29px;
-    border: 2px solid #2d2b33;
-    border-radius: 8px;
-    margin-top: 7px;
+    width: 150px;height: 29px;
+    border: 2px solid #2d2b33;border-radius: 8px;
     left: 8px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 7px;margin-right: auto;margin-left: auto;
     transition: 0.3s all;
 }
 .container__donate__button:hover{
@@ -328,8 +293,7 @@ li>a:hover:before {
     font-family: 'JetBrains Mono', monospace;
     font-weight: 200;
     font-size: 14px;
-    margin-top: -6px;
-    margin-left: -7px;
+    margin-top: -6px;margin-left: -7px;
     display: flex;
     width: 19ch;
     justify-content: center;
@@ -343,68 +307,194 @@ li>a:hover:before {
 }
 .about_me_main_text{
     display: block;
-    left: 0;
-    right: 0;
-    margin: auto;
+    left: 0;right: 0;
     width: 700px;
     color: #fff;
     font-size: 19px;
     line-height: 1.4;
+    border-top: 1px solid #fff;border-bottom: 1px solid #fff;
+    padding-top: 25px;padding-bottom: 25px;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 200;
     opacity: .7;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35px;
+    margin: auto;margin-left: auto;margin-right: auto;margin-top: 35px;
 }
 
 /* #project */
-/* main text */
-#main_project_text{
-    text-align: center;
-    font-size: 50px;
-    font-weight: 500;
-    color: #fff;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10em;
-    background: #001203;
-    margin-top: 120px;
-    border-bottom: 1px solid #00ff4873;
-    font-family: 'Silkscreen', sans-serif;
-    overflow: hidden;
-}
-
-/* project alphamap section */
+/* cards section */
 .project_content{
     display: block;
     justify-content: center;
     margin-top: 20px;
-    height: 2543px;
-    border-top: solid 1px #fff;
+    height: 1000px;
     background-color: #0d0d0d;
 }
+.card__alphamap{
+    position: absolute;
+    left: 0;right: 475px;
+    margin: auto;margin-top: 78px;
+    padding: 8px 8px 8px 8px;
+    width: 50%;height: 309px;
+    max-width: 420px;min-width: 260px;
+    border: 2px solid #151519;border-radius: 24px;
+    animation: showing 0.3s;
+    transition: all 0.2s;
+}
+.card__alphamap:hover{
+    background: #151519;
+}
 .img__alphamapicon{
-    display: block;
-    position: relative;
-    width: 124px;
-    top: 270px;
-    margin-left: auto;
-    margin-right: auto;
-    animation: showing 4s;
-    filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.1));
+    position: absolute;
+    width: 74px;
+    float: left;
+    padding: 0.5rem;
 }
 #alphamap__text{
-    text-align: center;
-    font-size: 44px;
+    font-size: 22px;
     font-weight: 500;
     color: #fff;
-    margin-left: auto;
-    margin-right: auto;
+    float: left;
     width: 6em;
-    margin-top: 70px;
-    font-family: 'JetBrains Mono', monospace;
+    margin-top: 24px;margin-left: 77px;
+    font-family: 'Montserrat', sans-serif;
     overflow: hidden;
+    text-decoration: solid;
+}
+.card__alphamap__link{
+    display: block;
+    left: 20px;right: 0;
+    margin-top: 82px;
+    width: 183px;height: 32px;
+    border-radius: 14px;border: solid 1px rgb(36, 38, 46);
+    padding: 4px 22px;
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 1.5;
+    font-weight: 200;
+    text-align: center;
+    transition: 0.3s ease;
+    color: #fff;
+}
+.card__alphamap__link:hover{
+    background: rgb(36, 38, 46);
+    color: #cfcfcf;
+}
+#card__alphamap__text{
+    display: block;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+    max-width: 28em;min-width: 18em;
+    text-align: center;
+    left: 0;right: 0;
+    margin: auto;margin-top: 10px;
+    color: #fff;
+    padding-top: 10px;
+    border-top: solid 1px #fff;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 100;
+    opacity: .7;
+}
+.card__alphamap__button{
+    display: block;
+    left: 0;right: 0;
+    margin: auto;
+    margin-top: 30px;
+    width: 183px;height: 32px;
+    background: rgb(36, 38, 46);
+    border-radius: 8px;
+    padding: 4px 22px;
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 1.5;
+    font-weight: 200;
+    text-align: center;
+    transition: 0.3s;
+    color: #fff;
+}
+.card__alphamap__button:hover{
+    background: rgb(85, 61, 103);
+}
+.card__alphamapsite{
+    position: absolute;
+    left: 0px;right: -475px;
+    margin: auto;
+    padding: 8px 8px 8px 8px;
+    width: 50%;height: 309px;
+    max-width: 420px;
+    min-width: 260px;
+    border: 2px solid #151519;
+    border-radius: 24px;
+    animation: showing 0.3s;
+    transition: all 0.2s;
+    margin-top: 78px;
+}
+.card__alphamapsite:hover{
+    background: #151519;
+}
+.img__alphamapicon{
+    position: absolute;
+    width: 74px;
+    float: left;
+    padding: 0.5rem;
+}
+#alphamapsite__text{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    float: left;
+    margin-left: 77px;
+    width: 8em;
+    margin-top: 24px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    text-decoration: solid;
+}
+.card__alphamapsite__link{
+    display: block;
+    left: 20px;
+    right: 0;
+    margin-top: 82px;
+    width: 183px;
+    height: 32px;
+    border-radius: 14px;
+    border: solid 1px rgb(36, 38, 46);
+    padding: 4px 22px;
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 1.5;
+    font-weight: 200;
+    text-align: center;
+    transition: 0.3s ease;
+    color: #fff;
+}
+.card__alphamapsite__link:hover{
+    background: rgb(36, 38, 46);
+    color: #cfcfcf;
+}
+#card__alphamapsite__text{
+    display: block;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+    max-width: 28em;
+    min-width: 18em;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 10px;
+    color: #fff;
+    padding-top: 10px;
+    border-top: solid 1px #fff;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 100;
+    opacity: .7;
+}
+
+/* alphamap section */
+.alphamap__project{
+    display: block;
+    justify-content: center;
+    height: 2300px;
+    background-color: rgb(19, 19, 21);
 }
 .img__alphamapmobile{
     display: block;
@@ -550,20 +640,14 @@ li>a:hover:before {
     background: #fff;
     color: #000;
 }
-.in865rhfutybera4{
-    margin-right: auto;
-    margin-left: auto;
-    width: 47%;
-    height: 1px;
-    background: #ffffff;
-    margin-top: 46px;
-}
 .about_project_text{
     width: 562px;
     display: block;
     color: #fff;
     font-size: 19px;
     line-height: 1.4;
+    border-top: 1px solid #fff;
+    padding-top: 25px;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 200;
     opacity: .9;
@@ -577,6 +661,8 @@ li>a:hover:before {
     color: #fff;
     font-size: 19px;
     line-height: 1.4;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 25px;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 200;
     opacity: .9;
@@ -584,18 +670,10 @@ li>a:hover:before {
     margin-right: auto;
     margin-top: 35px;
 }
-.njgbt860geui68x0{
-    margin-right: auto;
-    margin-left: auto;
-    width: 50%;
-    height: 1px;
-    background: #ffffff;
-    margin-top: 32px;
-}
 
 /* footer */
 .footer{
-    background: #090707;
+    background: rgb(19, 19, 23);
     width: 100%;
     height: 44px;
 }
@@ -608,26 +686,6 @@ li>a:hover:before {
     float: left;
     width: 6em;
     padding-left: 5px;
-}
-.footer_tg__button{
-    width: 33px;
-    height: 33px;
-    transition: 0.5s ease;
-}
-.footer_tg__button img{
-    width: 33px;
-}
-.footer_tg__button:hover{
-    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.694));
-}
-.footer>a{
-    position: relative;
-    display: block;
-    width: 44px;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: -5px;
-    left: 88px;
 }
 /* Animations */ 
 @keyframes showing{
@@ -647,35 +705,7 @@ li>a:hover:before {
     }
 }
 
-@media screen and (max-width: 2048px) {
-    .footer>a{
-        left: 967px;
-    }
-}
-@media screen and (max-width: 1980px) {
-    .footer>a{
-        left: 921px;
-    }
-}
-@media screen and (max-width: 1920px) {
-    .footer>a{
-        left: 920px;
-    }
-}
-@media screen and (max-width: 1680px) {
-    .footer>a{
-        left: 778px;
-    }
-}
-@media screen and (max-width: 1570px) {
-    .footer>a{
-        left: 749px;
-    }
-}
 @media screen and (max-width: 1440px) {
-    .footer>a{
-        left: 682px;
-    }
     .content__blueflag{
         left: 301px;
     }
@@ -699,9 +729,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 1350px) {
-    .footer>a{
-        left: 617px;
-    }
     .img__alphamapdesktop{
         width: 790px;
         right: 230px;
@@ -721,9 +748,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 1280px) {
-    .footer>a{
-        left: 585px;
-    }
     .content__blueflag{
         width: 89px;
         left: 285px;
@@ -752,9 +776,6 @@ li>a:hover:before {
     }
 }
 @media screen and (max-width: 1140px) {
-    .footer>a{
-        left: 525px;
-    }
     .content__blueflag{
         width: 78px;
         left: 240px;
@@ -793,19 +814,8 @@ li>a:hover:before {
     .imgJbtnr4hg25bwfu{
         width: 764px;
     }
-    .footer>a{
-        left: 482px;
-    }
-}
-@media screen and (max-width: 1040px) {
-    .footer>a{
-        left: 462px;
-    }
 }
 @media screen and (max-width: 1000px) {
-    .footer>a{
-        left: 431px;
-    }
     .content__blueflag{
         width: 78px;
         left: 220px;
@@ -826,18 +836,6 @@ li>a:hover:before {
         width: 180px;
         top: 565px;
     }
-    #main_project_text{
-        width: 8em;
-        font-size: 44px;
-    }
-    #alphamap__text{
-        font-size: 33px;
-        margin-top: 10px;
-    }
-    .img__alphamapicon{
-        width: 92px;
-        top: 155px;
-    }
     .project_button{
         margin-top: 140px;
     }
@@ -857,14 +855,20 @@ li>a:hover:before {
         font-size: 15px;
         width: 520px;
     }
+    .card__alphamap{
+        left: 0;
+        right: 0;
+    }
+    .card__alphamapsite{
+        left: 0;
+        right: 0;
+        margin-top: 420px;
+    }
     .about_project_text{
         font-size: 16px;
     }
     .about_project_text2{
         font-size: 16px;
-    }
-    .footer>a{
-        left: 376px;
     }
     .content__blueflag{
         width: 66px;
@@ -901,14 +905,6 @@ li>a:hover:before {
         font-size: 51px;
         bottom: -70px;
     }
-    .project_content{
-        height: 2000px;
-    }
-}
-@media screen and (max-width: 825px) {
-    .footer>a{
-        left: 354px;
-    }
 }
 @media screen and (max-width: 760px) {
     li {
@@ -928,9 +924,6 @@ li>a:hover:before {
     }
     .lang__ua{
         margin-right: 45px;
-    }
-    .footer>a{
-        left: 331px;
     }
     .content__blueflag{
         width: 66px;
@@ -970,17 +963,6 @@ li>a:hover:before {
 }
 
 @media screen and (max-width: 710px) {
-    .footer>a{
-        left: 312px;
-    }
-    #alphamap__text{
-        font-size: 31px;
-        margin-top: 10px;
-    }
-    .img__alphamapicon{
-        width: 102px;
-        top: 155px;
-    }
     .img__alphamapdesktop{
         width: 410px;
         right: 120px;
@@ -1027,9 +1009,6 @@ li>a:hover:before {
         font-size: 14px;
         width: 65%;
     }
-    .footer>a{
-        left: 284px;
-    }
     .img__alphamapmobile{
         left: 227px;
         width: 165px;
@@ -1040,9 +1019,6 @@ li>a:hover:before {
     .about_me_main_text{
         font-size: 15px;
         width: 360px;
-    }
-    .footer>a{
-        left: 265px;
     }
     .img__alphamapdesktop{
         width: 540px;
@@ -1076,9 +1052,6 @@ li>a:hover:before {
         font-size: 54px;
         bottom: 30px;
     }
-    .project_content{
-        height: 2360px;
-    }
     .project_button{
         margin-top: 500px;
     }
@@ -1092,17 +1065,11 @@ li>a:hover:before {
         width: 60%;
         font-size: 12px;
     }
-    .footer>a{
-        left: 239px;
-    }
 }
 @media screen and (max-width: 560px) {
     .about_me_main_text{
         font-size: 13px;
         width: 340px;
-    }
-    .footer>a{
-        left: 219px;
     }
     .img__alphamapdesktop{
         width: 410px;
@@ -1140,19 +1107,13 @@ li>a:hover:before {
         margin-top: 700px;
         width: 315px;
     }
-    .project_content{
-        height: 2250px;
-    }
 }
 @media screen and (max-width: 540px) {
     .about_me_main_text{
         font-size: 13px;
         width: 340px;
     }
-    .footer>a{
-        left: 211px;
-    }
-        .img__alphamapdesktop{
+    .img__alphamapdesktop{
         width: 410px;
         right: 0px;
         top: 760px;
@@ -1188,28 +1149,8 @@ li>a:hover:before {
         margin-top: 700px;
         width: 315px;
     }
-    .project_content{
-        height: 2250px;
-    }
-}
-@media screen and (max-width: 500px) {
-    .footer>a{
-        left: 198px;
-    }
-}
-@media screen and (max-width: 470px) {
-    .footer>a{
-        left: 186px;
-    }
 }
 @media screen and (max-width: 445px) {
-    #main_project_text{
-        width: 7em;
-        font-size: 38px;
-    }
-    .footer>a{
-        left: 171px;
-    }
     .img__alphamapdesktop{
         width: 380px;
         right: 0px;
@@ -1245,9 +1186,6 @@ li>a:hover:before {
     .project_button{
         margin-top: 700px;
     }
-    .project_content{
-        height: 2250px;
-    }
 }
 @media screen and (max-width: 430px) {
     .about_project_text{
@@ -1256,18 +1194,8 @@ li>a:hover:before {
     .about_project_text2{
         width: 55%;
     }
-    .footer>a{
-        left: 161px;
-    }
-    .logo{
-        left: 325px;
-    }
 }
 @media screen and (max-width: 410px) {
-    #main_project_text{
-        width: 7em;
-        font-size: 38px;
-    }
     .img__alphamapdesktop{
         width: 352px;
         right: 0px;
@@ -1302,8 +1230,5 @@ li>a:hover:before {
     }
     .project_button{
         margin-top: 600px;
-    }
-    .project_content{
-        height: 2150px;
     }
 }
