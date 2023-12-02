@@ -382,7 +382,7 @@ li>a:hover:before {
     display: block;
     color: #fff;
     font-family: 'JetBrains Mono', monospace;
-    max-width: 28em;min-width: 18em;
+    max-width: 28em;min-width: 16em;
     text-align: center;
     left: 0;right: 0;
     margin: auto;margin-top: 10px;
@@ -474,7 +474,7 @@ li>a:hover:before {
     color: #fff;
     font-family: 'JetBrains Mono', monospace;
     max-width: 28em;
-    min-width: 18em;
+    min-width: 16em;
     text-align: center;
     left: 0;
     right: 0;
