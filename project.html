@@ -11,9 +11,9 @@
     <div class="nav-box">
         <nav>
             <ul id="menu">
-                <li><a id="home" href="index.html">Home</a></li>
-                <li><a id="news" href="#">News</a></li>
-                <li><a id="project" href="project.html">Projects</a></li>
+                <li><a id="home" class="lang" href="index.html" key="home">Home</a></li>
+            <li><a id="news" class="lang" href="#" key="news">News</a></li>
+            <li><a id="project" class="lang" href="project.html" key="projects">Projects</a></li>
             </ul>    
             <a href="index.html"><img src="img/icon.png" alt="" class="logo"></a>
             
@@ -35,9 +35,9 @@
             <input type="checkbox" id="button">
             <div class="button_content">
                 <ul id="menu2">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#" id="news">News</a></li>
-                    <li><a href="project.html">Projects</a></li>
+                    <li><a class="lang" href="index.html" key="home">Home</a></li>
+                    <li><a class="lang" href="#" id="news" key="news">News</a></li>
+                    <li><a class="lang" href="project.html" key="projects">Projects</a></li>
                 </ul>
             </div>
             <li class="lang__ua"><button id="ua" class="translate"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/250px-Flag_of_Ukraine.svg.png" alt="uaflag"></button></li>
@@ -45,11 +45,26 @@
         </nav>
         </div>
 
-    <p id="main_project_text"></p>
-
     <section class="project_content">
-        <img src="img/am.png" alt="" class="img__alphamapicon">
-        <p id="alphamap__text"></p>
+        <div class="card__alphamap">
+            <img src="img/am-white.png" alt="" class="img__alphamapicon">
+            <p id="alphamap__text"></p>
+            <a href="https://finyi.github.io/AlphaMap/" class="card__alphamap__link"> AlphaMap 🍃 </a>
+            <p id="card__alphamap__text"></p>
+            <a href="#alphamap" class="card__alphamap__button"> More </a>
+        </div>
+
+        <div class="card__alphamapsite">
+            <img src="img/amsite-white.png" alt="" class="img__alphamapicon">
+            <p id="alphamapsite__text"></p>
+            <a href="#" class="card__alphamapsite__link"> Developing 🔨 </a>
+            <p id="card__alphamapsite__text"></p>
+        </div>
+    </section>
+
+
+
+    <section class="alphamap__project" id="alphamap">
         <img src="img/AlphaMapMobile.png" alt="" class="img__alphamapmobile">
         <img src="img/AlphaMapProject.png" alt="" class="img__alphamapdesktop">
         <div class="content__blueflag"></div>
@@ -58,20 +73,13 @@
         <p class="ukrainewar__text">WAR</p>
 
         <a href="https://finyi.github.io/AlphaMap/" class="project_button"> AlphaMap </a>
-        <div class="in865rhfutybera4"></div>
-        
         <p class="about_project_text">This is a map, it was created on the basis of leaflet, yes, it was created in order to see what is happening on the territory of Ukraine and my state. I don't regret making this map, I love it, I'm learning by making this map, and someday in the future I'd like to take this experience out into the world to broadcast changes and hot news on leaflet maps!</p>
         <p class="about_project_text2">Also on the map there is a leaflet of plugins and other things. The map is simple <a href="https://github.com/Finyi/AlphaMap">open source</a>, you can also download and use it, if you are an experienced person in using css, js and html, then everything will work for you!</p>
-
-        <div class="njgbt860geui68x0"></div>
     </section>
+
 
     <footer class="footer">
         <p class="footer__copyright">© 2023 Finy</p>
-        <a href="https://t.me/gordey4ek">
-        <div class="footer_tg__button">
-          <img src="img/tg.png" alt="">
-        </div></a>
     </footer>
 
     <script src="js/textUP.js"></script>
