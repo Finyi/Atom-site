@@ -3,6 +3,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
+@font-face {
+    font-family: 'Artegra Sans Extended';
+    src: local('Artegra Sans Extended Light'), local('Artegra-Sans-Extended-Light'),
+        url('fonts/ArtegraSansExLight.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Artegra Sans Extended';
+    src: local('Artegra Sans Extended Regular'), local('Artegra-Sans-Extended-Regular'),
+        url('fonts/ArtegraSansExRegular.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Artegra Sans Extended';
+    src: local('Artegra Sans Extended Medium'), local('Artegra-Sans-Extended-Medium'),
+        url('fonts/ArtegraSansExMedium.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Artegra Sans Extended';
+    src: local('Artegra Sans Extended Bold'), local('Artegra-Sans-Extended-Bold'),
+        url('fonts/ArtegraSansExBold.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Artegra Sans Extended';
+    src: local('Artegra Sans Extended SemiBold'), local('Artegra-Sans-Extended-SemiBold'),
+        url('fonts/ArtegraSansExSemiBold.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+  }
 
 /* body */
 *{
@@ -326,7 +361,7 @@ li>a:hover:before {
     display: block;
     justify-content: center;
     margin-top: 20px;
-    height: 1000px;
+    height: 880px;
     background-color: #0d0d0d;
 }
 .card__alphamap{
@@ -489,11 +524,12 @@ li>a:hover:before {
     opacity: .7;
 }
 
+
 /* alphamap section */
 .alphamap__project{
     display: block;
     justify-content: center;
-    height: 2300px;
+    height: 2500px;
     background-color: rgb(19, 19, 21);
 }
 .img__alphamapmobile{
@@ -518,7 +554,7 @@ li>a:hover:before {
     border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
-    bottom: -300px;
+    bottom: -350px;
     right: 190px;
     filter: drop-shadow(0px 0px 18px rgba(255, 255, 255, 0.1));
     opacity: 0;
@@ -575,13 +611,13 @@ li>a:hover:before {
     margin-left: auto;
     margin-right: auto;
     left: 402px;
-    font-size: 98px;
-    bottom: 320px;
+    font-size: 92px;
+    bottom: 340px;
     font-weight: 500;
     color: #fff;
     width: 10px;
     writing-mode: vertical-rl;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Artegra Sans Extended';
     opacity: 0;
     transform: translateX(-100%);
 }
@@ -599,13 +635,13 @@ li>a:hover:before {
     margin-left: auto;
     margin-right: auto;
     left: 402px;
-    font-size: 98px;
-    bottom: 278px;
+    font-size: 92px;
+    bottom: 310px;
     font-weight: 500;
     color: #fff;
     width: 10px;
     writing-mode: vertical-rl;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Artegra Sans Extended';
     opacity: 0;
     transform: translateX(-100%);
 }
@@ -1045,12 +1081,12 @@ li>a:hover:before {
     .ukraine__text{
         left: 175px;
         font-size: 54px;
-        bottom: 140px;
+        bottom: 170px;
     }
     .ukrainewar__text{
         left: 175px;
         font-size: 54px;
-        bottom: 30px;
+        bottom: 120px;
     }
     .project_button{
         margin-top: 500px;
@@ -1096,12 +1132,12 @@ li>a:hover:before {
     .ukraine__text{
         left: 128px;
         font-size: 38px;
-        bottom: -140px;
+        bottom: -80px;
     }
     .ukrainewar__text{
         left: 128px;
         font-size: 38px;
-        bottom: -200px;
+        bottom: -134px;
     }
     .project_button{
         margin-top: 700px;
@@ -1138,12 +1174,12 @@ li>a:hover:before {
     .ukraine__text{
         left: 128px;
         font-size: 38px;
-        bottom: -140px;
+        bottom: -80px;
     }
     .ukrainewar__text{
         left: 128px;
         font-size: 38px;
-        bottom: -200px;
+        bottom: -134px;
     }
     .project_button{
         margin-top: 700px;
@@ -1176,12 +1212,12 @@ li>a:hover:before {
     .ukraine__text{
         left: 128px;
         font-size: 38px;
-        bottom: -140px;
+        bottom: -100px;
     }
     .ukrainewar__text{
         left: 128px;
         font-size: 38px;
-        bottom: -200px;
+        bottom: -150px;
     }
     .project_button{
         margin-top: 700px;
@@ -1221,12 +1257,12 @@ li>a:hover:before {
     .ukraine__text{
         left: 114px;
         font-size: 29px;
-        bottom: -200px;
+        bottom: -160px;
     }
     .ukrainewar__text{
         left: 114px;
         font-size: 29px;
-        bottom: -250px;
+        bottom: -190px;
     }
     .project_button{
         margin-top: 600px;
