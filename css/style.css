@@ -207,9 +207,6 @@ li>a:hover:before {
     #menu2>li>a:before {
         display: none;
     }
-    #news{
-        cursor: not-allowed;
-    }
 
 /* home */ 
 /* main text */
