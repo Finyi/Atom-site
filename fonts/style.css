@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Artegra Sans Extended';
+    src: local('Artegra Sans Extended Thin'), local('Artegra-Sans-Extended-Thin'),
+        url('ArtegraSansExThin.woff2') format('woff2'),
+        url('ArtegraSansExThin.woff') format('woff'),
+        url('ArtegraSansExThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
