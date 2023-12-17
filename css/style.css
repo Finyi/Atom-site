@@ -223,11 +223,6 @@ li>a:hover:before {
     overflow: hidden;
     transition: color 0.2s;
 }
-#main_text:hover{
-    filter: drop-shadow(0px 0px 5px rgba(221, 255, 0, 0.21));
-    color: #d0c311;
-    transition: color 0.5s;
-} 
 #subtitle_text{
     text-align: center;
     font-size: 14px;
@@ -443,7 +438,7 @@ li>a:hover:before {
 .card__alphamap__button:hover{
     background: rgb(85, 61, 103);
 }
-.card__alphamapsite{
+.card__atomsite{
     position: absolute;
     left: 0px;right: -475px;
     margin: auto;
@@ -457,7 +452,7 @@ li>a:hover:before {
     transition: all 0.2s;
     margin-top: 78px;
 }
-.card__alphamapsite:hover{
+.card__atomsite:hover{
     background: #151519;
 }
 .img__alphamapicon{
@@ -466,7 +461,7 @@ li>a:hover:before {
     float: left;
     padding: 0.5rem;
 }
-#alphamapsite__text{
+#atomsite__text{
     font-size: 22px;
     font-weight: 500;
     color: #fff;
@@ -478,7 +473,7 @@ li>a:hover:before {
     overflow: hidden;
     text-decoration: solid;
 }
-.card__alphamapsite__link{
+.card__atomsite__link{
     display: block;
     left: 20px;
     right: 0;
@@ -495,11 +490,11 @@ li>a:hover:before {
     transition: 0.3s ease;
     color: #fff;
 }
-.card__alphamapsite__link:hover{
+.card__atomsite__link:hover{
     background: rgb(36, 38, 46);
     color: #cfcfcf;
 }
-#card__alphamapsite__text{
+#card__atomsite__text{
     display: block;
     color: #fff;
     font-family: 'JetBrains Mono', monospace;
@@ -524,15 +519,29 @@ li>a:hover:before {
 .alphamap__project{
     display: block;
     justify-content: center;
-    height: 2500px;
+    height: 1700px;
     background-color: rgb(19, 19, 21);
+}
+.alphamap__main_text{
+    text-align: center;
+    font-size: 89px;
+    font-weight: 300;
+    margin-left: auto;margin-right: auto;
+    width: 10ch;
+    font-family: 'Artegra Sans Extended';
+    overflow: hidden;
+    transition: color 0.2s;
+    background-color: #fff;
+    background-image: linear-gradient(120deg, #fff, #3c553d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .img__alphamapmobile{
     display: block;
     position: relative;
-    width: 300px;
-    left: 560px;
-    top: 594px;
+    width: 250px;
+    left: 400px;
+    top: 120px;
     margin-left: auto;
     margin-right: auto;
     opacity: 0;
@@ -545,12 +554,12 @@ li>a:hover:before {
 .img__alphamapdesktop{
     position: relative;
     display: block;
-    width: 920px;
+    width: 790px;
     border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
-    bottom: -350px;
-    right: 190px;
+    top: -380px;
+    right: 230px;
     filter: drop-shadow(0px 0px 18px rgba(255, 255, 255, 0.1));
     opacity: 0;
 }
@@ -568,8 +577,8 @@ li>a:hover:before {
     background-color: rgba(72, 136, 255, 0.399);
     margin-left: auto;
     margin-right: auto;
-    bottom: 342px;
-    left: 402px;
+    bottom: 662px;
+    left: 304px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.232);
     opacity: 0;
     transform: translateX(100%);
@@ -589,8 +598,8 @@ li>a:hover:before {
     background-color: rgba(255, 222, 60, 0.4);
     margin-left: auto;
     margin-right: auto;
-    bottom: 338px;
-    left: 402px;
+    bottom: 660px;
+    left: 304px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.232);
     opacity: 0;
     transform: translateX(100%);
@@ -605,13 +614,12 @@ li>a:hover:before {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    left: 402px;
+    right: 622px;
     font-size: 92px;
-    bottom: 340px;
+    bottom: 450px;
     font-weight: 500;
     color: #fff;
     width: 10px;
-    writing-mode: vertical-rl;
     font-family: 'Artegra Sans Extended';
     opacity: 0;
     transform: translateX(-100%);
@@ -629,19 +637,18 @@ li>a:hover:before {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    left: 402px;
+    right: 100px;
     font-size: 92px;
-    bottom: 310px;
+    bottom: 588px;
     font-weight: 500;
     color: #fff;
     width: 10px;
-    writing-mode: vertical-rl;
     font-family: 'Artegra Sans Extended';
     opacity: 0;
     transform: translateX(-100%);
 }
 .ukrainewar__text:first-letter{
-    color: rgba(255, 11, 11, 0.855);
+    color: rgba(255, 255, 11, 0.855);
 }
 .ukrainewar__text.element-show{
     opacity: 1;
@@ -654,7 +661,7 @@ li>a:hover:before {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -100px;
+    margin-top: -440px;
     width: 345px;
     height: 43px;
     border-radius: 28px;
@@ -704,7 +711,7 @@ li>a:hover:before {
 
 /* footer */
 .footer{
-    background: rgb(19, 19, 23);
+    background: rgb(36, 36, 43);
     width: 100%;
     height: 44px;
 }
@@ -735,49 +742,6 @@ li>a:hover:before {
         transition: all 0s;
     }
 }
-
-@media screen and (max-width: 1440px) {
-    .content__blueflag{
-        left: 301px;
-    }
-    .content__yellowflag{
-        left: 301px;
-    }
-    .img__alphamapdesktop{
-        width: 835px;
-        right: 256px;
-    }
-    .img__alphamapmobile{
-        left: 430px;
-    }
-    .ukraine__text{
-        left: 282px;
-        font-size: 92px;
-    }
-    .ukrainewar__text{
-        left: 282px;
-        font-size: 92px;
-    }
-}
-@media screen and (max-width: 1350px) {
-    .img__alphamapdesktop{
-        width: 790px;
-        right: 230px;
-        top: 210px;
-    }
-    .img__alphamapmobile{
-        left: 420px;
-        width: 280px;
-    }
-    .ukraine__text{
-        left: 273px;
-        font-size: 82px;
-    }
-    .ukrainewar__text{
-        left: 273px;
-        font-size: 82px;
-    }
-}
 @media screen and (max-width: 1280px) {
     .content__blueflag{
         width: 89px;
@@ -790,52 +754,68 @@ li>a:hover:before {
     .img__alphamapdesktop{
         width: 750px;
         right: 210px;
-        top: 167px;
     }
     .img__alphamapmobile{
         left: 395px;
         width: 250px;
-        top: 460px;
     }
     .ukraine__text{
-        left: 259px;
-        font-size: 72px;
+        font-size: 78px;
+        right: 584px;
     }
     .ukrainewar__text{
-        left: 259px;
-        font-size: 72px;
+        font-size: 78px;
+        right: 90px;
+        bottom: 565px;
+    }
+}
+@media screen and (max-width: 1180px) {
+    .content__blueflag{
+        width: 75px;
+        left: 238px;
+    }
+    .content__yellowflag{
+        width: 75px;
+        left: 238px;
+    }
+    .img__alphamapdesktop{
+        width: 680px;
+        right: 166px;
+    }
+    .img__alphamapmobile{
+        width: 230px;
+        top: 40px;
+        left: 334px;
+    }
+    .ukraine__text{
+        font-size: 66px;
+        right: 480px;
+        bottom: 444px;
+    }
+    .ukrainewar__text{
+        font-size: 66px;
+        bottom: 542px;
+        left: -60px;
     }
 }
 @media screen and (max-width: 1140px) {
     .content__blueflag{
-        width: 78px;
         left: 240px;
-        bottom: 267px;
     }
     .content__yellowflag{
-        width: 78px;
         left: 240px;
-        bottom: 264px;
     }
     .img__alphamapdesktop{
-        width: 640px;
-        right: 164px;
-        top: 167px;
+        width: 620px;
     }
     .img__alphamapmobile{
-        left: 355px;
-        width: 220px;
-        top: 518px;
+        width: 230px;
     }
     .ukraine__text{
-        left: 240px;
-        font-size: 66px;
-        bottom: 260px;
+        right: 460px;
     }
     .ukrainewar__text{
-        left: 240px;
-        font-size: 66px;
-        bottom: 220px;
+        left: -50px;
     }
 }
 @media screen and (max-width: 1080px) {
@@ -848,40 +828,32 @@ li>a:hover:before {
 }
 @media screen and (max-width: 1000px) {
     .content__blueflag{
-        width: 78px;
-        left: 220px;
-        bottom: 113px;
+        left: 200px;
     }
     .content__yellowflag{
-        width: 78px;
-        left: 220px;
-        bottom: 110px;
+        left: 200px;
     }
     .img__alphamapdesktop{
-        width: 590px;
-        right: 164px;
-        top: 295px;
+        width: 545px;
+        right: 130px;
     }
     .img__alphamapmobile{
         left: 300px;
-        width: 180px;
-        top: 565px;
-    }
-    .project_button{
-        margin-top: 140px;
     }
     .ukraine__text{
-        left: 200px;
-        font-size: 56px;
-        bottom: 100px;
+        font-size: 52px;
+        right: 380px;
     }
     .ukrainewar__text{
-        left: 200px;
-        font-size: 56px;
-        bottom: 70px;
+        font-size: 52px;
+        bottom: 520px;
+        left: -30px;
     }
 }
 @media screen and (max-width: 880px) {
+    .alphamap__project{
+        height: 1250px;
+    }
     .about_me_main_text{
         font-size: 15px;
         width: 520px;
@@ -890,10 +862,13 @@ li>a:hover:before {
         left: 0;
         right: 0;
     }
-    .card__alphamapsite{
+    .card__atomsite{
         left: 0;
         right: 0;
         margin-top: 420px;
+    }
+    #atomsite__text{
+        margin-left: 82px;
     }
     .about_project_text{
         font-size: 16px;
@@ -904,37 +879,33 @@ li>a:hover:before {
     .content__blueflag{
         width: 66px;
         height: 16px;
-        left: 202px;
-        bottom: -18px;
+        margin-top: 167px;
     }
     .content__yellowflag{
         width: 66px;
         height: 16px;
-        left: 202px;
-        bottom: -20px;
     }
     .img__alphamapdesktop{
         width: 480px;
-        right: 129px;
-        top: 380px;
+        right: 120px;
+        top: -300px;
     }
     .img__alphamapmobile{
-        left: 280px;
         width: 180px;
-        top: 637px;
+        left: 273px;
     }
     .project_button{
-        margin-top: 190px;
+        margin-top: -500px;
     }
     .ukraine__text{
-        left: 178px;
         font-size: 51px;
-        bottom: -35px;
+        bottom: 515px;
+        right: 345px;
     }
     .ukrainewar__text{
-        left: 178px;
         font-size: 51px;
-        bottom: -70px;
+        bottom: 590px;
+        left: -35px;
     }
 }
 @media screen and (max-width: 760px) {
@@ -956,75 +927,75 @@ li>a:hover:before {
     .lang__ua{
         margin-right: 45px;
     }
+    .alphamap__main_text{
+        font-size: 60px;
+    }
     .content__blueflag{
-        width: 66px;
-        height: 16px;
-        left: 180px;
-        bottom: -48px;
-    }
-    .content__yellowflag{
-        width: 66px;
-        height: 16px;
-        left: 180px;
-        bottom: -51px;
-    }
-    .img__alphamapmobile{
-        left: 260px;
-        width: 180px;
-        top: 600px;
+        bottom: 662px;
     }
     .img__alphamapdesktop{
-        width: 420px;
-        right: 110px;
-        top: 380px;
+        width: 450px;
+        right: 100px;
+        top: -300px;
     }
-    .ukraine__text{
-        left: 158px;
-        font-size: 44px;
-        bottom: -70px;
-    }
-    .ukrainewar__text{
-        left: 158px;
-        font-size: 44px;
-        bottom: -110px;
+    .img__alphamapmobile{
+        width: 160px;
+        left: 265px;
+        top: 10px;
     }
     .project_button{
-        margin-top: 323px;
+        margin-top: -500px;
+    }
+    .ukraine__text{
+        font-size: 42px;
+        bottom: 513px;
+        right: 300px;
+    }
+    .ukrainewar__text{
+        font-size: 42px;
+        bottom: 575px;
+        left: -20px;
     }
 }
 
 @media screen and (max-width: 710px) {
-    .img__alphamapdesktop{
-        width: 410px;
-        right: 120px;
-        top: 380px;
-    }
-    .img__alphamapmobile{
-        left: 240px;
-        width: 180px;
-        top: 600px;
+    .alphamap__project{
+        height: 1550px;
     }
     .content__blueflag{
-        width: 61px;
-        height: 14px;
-        left: 160px;
-        bottom: -59px;
+        width: 85px;
+        height: 19px;
+        bottom: 662px;
+        left: -100px;
     }
     .content__yellowflag{
-        width: 61px;
-        height: 14px;
-        left: 160px;
-        bottom: -62px;
+        width: 85px;
+        height: 19px;
+        bottom: 660px;
+        left: -100px;
+    }
+    .img__alphamapdesktop{
+        width: 480px;
+        right: 0;
+        top: 150px;
+    }
+    .img__alphamapmobile{
+        width: 220px;
+        left: 0;
+        top: 80px;
+    }
+    .project_button{
+        margin-top: -100px;
     }
     .ukraine__text{
-        left: 141px;
-        font-size: 44px;
-        bottom: -70px;
+        font-size: 42px;
+        bottom: 400px;
+        right: 210px;
     }
     .ukrainewar__text{
-        left: 141px;
-        font-size: 44px;
-        bottom: -110px;
+        font-size: 42px;
+        bottom: 460px;
+        left: 60px;
     }
 }
 @media screen and (max-width: 680px) {
@@ -1039,52 +1010,6 @@ li>a:hover:before {
     .about_project_text2{
         font-size: 14px;
         width: 65%;
-    }
-    .img__alphamapmobile{
-        left: 227px;
-        width: 165px;
-        top: 587px;
-    }
-}
-@media screen and (max-width: 640px) {
-    .about_me_main_text{
-        font-size: 15px;
-        width: 360px;
-    }
-    .img__alphamapdesktop{
-        width: 540px;
-        right: 0px;
-        top: 710px;
-    }
-    .img__alphamapmobile{
-        left: 0px;
-        width: 230px;
-        top: 650px;
-    }
-    .content__blueflag{
-        width: 67px;
-        height: 16px;
-        left: -102px;
-        bottom: 10px;
-    }
-    .content__yellowflag{
-        width: 67px;
-        height: 16px;
-        left: -102px;
-        bottom: 8px;
-    }
-    .ukraine__text{
-        left: 175px;
-        font-size: 54px;
-        bottom: 170px;
-    }
-    .ukrainewar__text{
-        left: 175px;
-        font-size: 54px;
-        bottom: 120px;
-    }
-    .project_button{
-        margin-top: 500px;
     }
 }
 @media screen and (max-width: 590px) {
@@ -1102,120 +1027,85 @@ li>a:hover:before {
         font-size: 13px;
         width: 340px;
     }
-    .img__alphamapdesktop{
-        width: 410px;
-        right: 0px;
-        top: 760px;
-    }
-    .img__alphamapmobile{
-        left: 0px;
-        width: 180px;
-        top: 724px;
-    }
-    .content__blueflag{
-        width: 56px;
-        height: 13px;
-        left: -74px;
-        bottom: -220px;
-    }
-    .content__yellowflag{
-        width: 56px;
-        height: 13px;
-        left: -74px;
-        bottom: -222px;
-    }
-    .ukraine__text{
-        left: 128px;
-        font-size: 38px;
-        bottom: -80px;
-    }
-    .ukrainewar__text{
-        left: 128px;
-        font-size: 38px;
-        bottom: -134px;
-    }
-    .project_button{
-        margin-top: 700px;
-        width: 315px;
-    }
 }
 @media screen and (max-width: 540px) {
+    .alphamap__main_text{
+        font-size: 49px;
+    }
     .about_me_main_text{
         font-size: 13px;
         width: 340px;
     }
-    .img__alphamapdesktop{
-        width: 410px;
-        right: 0px;
-        top: 760px;
-    }
-    .img__alphamapmobile{
-        left: 0px;
-        width: 180px;
-        top: 724px;
-    }
     .content__blueflag{
-        width: 56px;
-        height: 13px;
-        left: -74px;
-        bottom: -220px;
+        width: 85px;
+        height: 19px;
+        bottom: 662px;
+        left: -100px;
     }
     .content__yellowflag{
-        width: 56px;
-        height: 13px;
-        left: -74px;
-        bottom: -222px;
+        width: 85px;
+        height: 19px;
+        bottom: 660px;
+        left: -100px;
     }
-    .ukraine__text{
-        left: 128px;
-        font-size: 38px;
-        bottom: -80px;
+    .img__alphamapdesktop{
+        width: 440px;
+        top: 150px;
     }
-    .ukrainewar__text{
-        left: 128px;
-        font-size: 38px;
-        bottom: -134px;
+    .img__alphamapmobile{
+        width: 210px;
+        top: 80px;
     }
     .project_button{
-        margin-top: 700px;
-        width: 315px;
+        margin-top: -100px;
+    }
+    .ukraine__text{
+        font-size: 37px;
+        bottom: 355px;
+        right: 170px;
+    }
+    .ukrainewar__text{
+        font-size: 37px;
+        bottom: 410px;
+        left: 60px;
     }
 }
 @media screen and (max-width: 445px) {
-    .img__alphamapdesktop{
-        width: 380px;
-        right: 0px;
-        top: 760px;
-    }
-    .img__alphamapmobile{
-        left: 0px;
-        width: 180px;
-        top: 724px;
+    .alphamap__main_text{
+        font-size: 41px;
     }
     .content__blueflag{
-        width: 56px;
-        height: 13px;
-        left: -74px;
-        bottom: -220px;
+        width: 85px;
+        height: 19px;
+        bottom: 552px;
+        left: -78px;
     }
     .content__yellowflag{
-        width: 56px;
-        height: 13px;
-        left: -74px;
-        bottom: -222px;
+        width: 85px;
+        height: 19px;
+        bottom: 550px;
+        left: -78px;
     }
-    .ukraine__text{
-        left: 128px;
-        font-size: 38px;
-        bottom: -100px;
+    .img__alphamapdesktop{
+        width: 390px;
+        top: 188px;
     }
-    .ukrainewar__text{
-        left: 128px;
-        font-size: 38px;
-        bottom: -150px;
+    .img__alphamapmobile{
+        width: 180px;
+        top: 120px;
     }
     .project_button{
-        margin-top: 700px;
+        margin-top: -45px;
+    }
+    .ukraine__text{
+        font-size: 37px;
+        bottom: 300px;
+        right: 160px;
+    }
+    .ukrainewar__text{
+        font-size: 37px;
+        bottom: 355px;
+        left: 60px;
     }
 }
 @media screen and (max-width: 430px) {
@@ -1228,38 +1118,17 @@ li>a:hover:before {
 }
 @media screen and (max-width: 410px) {
     .img__alphamapdesktop{
-        width: 352px;
-        right: 0px;
-        top: 720px;
-    }
-    .img__alphamapmobile{
-        left: 0px;
-        width: 150px;
-        top: 680px;
-    }
-    .content__blueflag{
-        width: 42px;
-        height: 10px;
-        left: -64px;
-        bottom: -258px;
-    }
-    .content__yellowflag{
-        width: 42px;
-        height: 10px;
-        left: -64px;
-        bottom: -260px;
+        width: 360px;
+        top: 188px;
     }
     .ukraine__text{
-        left: 114px;
-        font-size: 29px;
-        bottom: -160px;
+        font-size: 37px;
+        bottom: 270px;
+        right: 160px;
     }
     .ukrainewar__text{
-        left: 114px;
-        font-size: 29px;
-        bottom: -190px;
-    }
-    .project_button{
-        margin-top: 600px;
+        font-size: 37px;
+        bottom: 325px;
+        left: 60px;
     }
 }
