@@ -2,43 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600&family=Poppins:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-
-@font-face {
-    font-family: 'Artegra Sans Extended';
-    src: local('Artegra Sans Extended Light'), local('Artegra-Sans-Extended-Light'),
-        url('fonts/ArtegraSansExLight.ttf') format('ttf');
-    font-weight: 100;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Artegra Sans Extended';
-    src: local('Artegra Sans Extended Regular'), local('Artegra-Sans-Extended-Regular'),
-        url('fonts/ArtegraSansExRegular.ttf') format('ttf');
-    font-weight: 200;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Artegra Sans Extended';
-    src: local('Artegra Sans Extended Medium'), local('Artegra-Sans-Extended-Medium'),
-        url('fonts/ArtegraSansExMedium.ttf') format('ttf');
-    font-weight: 300;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Artegra Sans Extended';
-    src: local('Artegra Sans Extended Bold'), local('Artegra-Sans-Extended-Bold'),
-        url('fonts/ArtegraSansExBold.ttf') format('ttf');
-    font-weight: 400;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Artegra Sans Extended';
-    src: local('Artegra Sans Extended SemiBold'), local('Artegra-Sans-Extended-SemiBold'),
-        url('fonts/ArtegraSansExSemiBold.ttf') format('ttf');
-    font-weight: 500;
-    font-style: normal;
-  }
-
 /* body */
 *{
     margin: 0;
@@ -524,17 +487,14 @@ li>a:hover:before {
 }
 .alphamap__main_text{
     text-align: center;
-    font-size: 89px;
-    font-weight: 300;
+    font-size: 72px;
+    font-weight: 400;
+    color: #fff;
     margin-left: auto;margin-right: auto;
-    width: 10ch;
-    font-family: 'Artegra Sans Extended';
+    width: 14ch;
+    font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     transition: color 0.2s;
-    background-color: #fff;
-    background-image: linear-gradient(120deg, #fff, #3c553d);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 .img__alphamapmobile{
     display: block;
@@ -614,13 +574,13 @@ li>a:hover:before {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    right: 622px;
+    right: 600px;
     font-size: 92px;
-    bottom: 450px;
+    bottom: 440px;
     font-weight: 500;
     color: #fff;
     width: 10px;
-    font-family: 'Artegra Sans Extended';
+    font-family: 'Montserrat', sans-serif;
     opacity: 0;
     transform: translateX(-100%);
 }
@@ -639,11 +599,11 @@ li>a:hover:before {
     margin-right: auto;
     right: 100px;
     font-size: 92px;
-    bottom: 588px;
+    bottom: 550px;
     font-weight: 500;
     color: #fff;
     width: 10px;
-    font-family: 'Artegra Sans Extended';
+    font-family: 'Montserrat', sans-serif;
     opacity: 0;
     transform: translateX(-100%);
 }
@@ -761,12 +721,12 @@ li>a:hover:before {
     }
     .ukraine__text{
         font-size: 78px;
-        right: 584px;
+        right: 540px;
     }
     .ukrainewar__text{
         font-size: 78px;
-        right: 90px;
-        bottom: 565px;
+        right: 100px;
+        bottom: 535px;
     }
 }
 @media screen and (max-width: 1180px) {
@@ -789,12 +749,12 @@ li>a:hover:before {
     }
     .ukraine__text{
         font-size: 66px;
-        right: 480px;
-        bottom: 444px;
+        right: 450px;
+        bottom: 435px;
     }
     .ukrainewar__text{
         font-size: 66px;
-        bottom: 542px;
+        bottom: 515px;
         left: -60px;
     }
 }
@@ -810,12 +770,6 @@ li>a:hover:before {
     }
     .img__alphamapmobile{
         width: 230px;
-    }
-    .ukraine__text{
-        right: 460px;
-    }
-    .ukrainewar__text{
-        left: -50px;
     }
 }
 @media screen and (max-width: 1080px) {
@@ -842,12 +796,13 @@ li>a:hover:before {
     }
     .ukraine__text{
         font-size: 52px;
-        right: 380px;
+        right: 360px;
+        bottom: 430px;
     }
     .ukrainewar__text{
         font-size: 52px;
-        bottom: 520px;
-        left: -30px;
+        bottom: 495px;
+        left: -50px;
     }
 }
 @media screen and (max-width: 880px) {
@@ -899,12 +854,12 @@ li>a:hover:before {
     }
     .ukraine__text{
         font-size: 51px;
-        bottom: 515px;
+        bottom: 505px;
         right: 345px;
     }
     .ukrainewar__text{
         font-size: 51px;
-        bottom: 590px;
+        bottom: 565px;
         left: -35px;
     }
 }
@@ -948,13 +903,13 @@ li>a:hover:before {
     }
     .ukraine__text{
         font-size: 42px;
-        bottom: 513px;
-        right: 300px;
+        bottom: 505px;
+        right: 290px;
     }
     .ukrainewar__text{
         font-size: 42px;
-        bottom: 575px;
-        left: -20px;
+        bottom: 555px;
+        left: -30px;
     }
 }
 
@@ -989,12 +944,12 @@ li>a:hover:before {
     }
     .ukraine__text{
         font-size: 42px;
-        bottom: 400px;
-        right: 210px;
+        bottom: 380px;
+        right: 180px;
     }
     .ukrainewar__text{
         font-size: 42px;
-        bottom: 460px;
+        bottom: 430px;
         left: 60px;
     }
 }
@@ -1061,12 +1016,12 @@ li>a:hover:before {
     }
     .ukraine__text{
         font-size: 37px;
-        bottom: 355px;
-        right: 170px;
+        bottom: 345px;
+        right: 160px;
     }
     .ukrainewar__text{
         font-size: 37px;
-        bottom: 410px;
+        bottom: 390px;
         left: 60px;
     }
 }
@@ -1099,12 +1054,12 @@ li>a:hover:before {
     }
     .ukraine__text{
         font-size: 37px;
-        bottom: 300px;
+        bottom: 280px;
         right: 160px;
     }
     .ukrainewar__text{
         font-size: 37px;
-        bottom: 355px;
+        bottom: 325px;
         left: 60px;
     }
 }
@@ -1128,7 +1083,7 @@ li>a:hover:before {
     }
     .ukrainewar__text{
         font-size: 37px;
-        bottom: 325px;
+        bottom: 315px;
         left: 60px;
     }
 }
