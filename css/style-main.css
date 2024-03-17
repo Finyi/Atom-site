@@ -441,6 +441,89 @@ li>a:hover:before {
     opacity: .7;
 }
 
+
+
+
+
+
+.card__mc-shablon{
+    position: absolute;
+    left: 0px;right: 475px;
+    margin: auto;
+    padding: 8px 8px 8px 8px;
+    width: 50%;height: 309px;
+    max-width: 420px;
+    min-width: 260px;
+    border: 2px solid #151519;
+    border-radius: 24px;
+    animation: showing 0.3s;
+    transition: all 0.2s;
+    margin-top: 425px;
+}
+.card__mc-shablon:hover{
+    background: #151519;
+}
+.img__mc-shablon{
+    position: absolute;
+    width: 74px;
+    float: left;
+    padding: 0.5rem;
+}
+#mc-shablon__text{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    float: left;
+    margin-left: 77px;
+    width: 14em;
+    margin-top: 12px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    text-decoration: solid;
+}
+.card__mc-shablon__link{
+    display: block;
+    left: 20px;
+    right: 0;
+    margin-top: 82px;
+    width: 183px;
+    height: 32px;
+    border-radius: 14px;
+    border: solid 1px rgb(36, 38, 46);
+    padding: 4px 22px;
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 1.5;
+    font-weight: 200;
+    text-align: center;
+    transition: 0.3s ease;
+    color: #fff;
+}
+.card__mc-shablon__link:hover{
+    background: rgb(36, 38, 46);
+    color: #cfcfcf;
+}
+#card__mc-shablon__text{
+    display: block;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+    max-width: 28em;
+    min-width: 16em;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 10px;
+    color: #fff;
+    padding-top: 10px;
+    border-top: solid 1px #fff;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 100;
+    opacity: .7;
+}
+
+
+
 /* footer */
 .footer{
     background: rgb(36, 36, 43);
